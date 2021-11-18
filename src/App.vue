@@ -1,12 +1,14 @@
 <template>
-<h1>simulador</h1>
-<button type="button" class="btn btn-primary">Primary</button>
+<Menu/>
 </template>
 
 <script>
-
+import Menu from "./components/Menu.vue";
 export default {
-
+  name: "App",
+  components: {
+    Menu,
+  }
 }
 </script>
 
